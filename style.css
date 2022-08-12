@@ -1,0 +1,45 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: lightcyan; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: navy;
+}
+
+/* STYLE IMAGES */
+img
+{
+  width:20em;
+}
+/* STYLE NAV BAR */
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+.flex-container
+{
+  display: flex;
+  flex-flow: row wrap;
+  flex-wrap: nowrap;
+}
+
+.flex-item 
+{
+  flex-basis: 100%;
+  margin: 1%;
+}
+
+img{
+  width:100%;
+}
+
+@media screen and (max-width:100%)
+  .flex-container
